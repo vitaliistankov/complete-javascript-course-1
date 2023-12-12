@@ -29,3 +29,12 @@ const restaurant = {
 };
 
 //Github test
+// Whenever we need the elements of array individually then we can use the spread operator
+
+// Iterables - all data structures (arrays, strings ..) but not objects
+
+// We cannot use spread operator to build a string using a template literal
+// for example:  console.log(`${...str} Schmedtmann`);
+// as multiple values separated by the comma expected
+
+// Since we can do shallow copies of arrays, using the spread operator we can do the same with objects (instead of object.assign).
